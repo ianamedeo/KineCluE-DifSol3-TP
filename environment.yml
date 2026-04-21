@@ -147,5 +147,4 @@ dependencies:
   - zstd=1.5.6=ha6fb4c9_0
   - pip:
       - psutil==6.0.0
-      - scikit-sparse==0.4.15
 prefix: /home/INFO/CONDA/miniforge3/envs/envkineclue
