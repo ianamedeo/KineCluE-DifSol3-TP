@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+FILE="/srv/conda/envs/notebook/lib/python3.12/site-packages/sympy/printing/codeprinter.py"
+
+echo "Patching $FILE ..."
+
+# Replace the target value
+sed -i "s/'strict': None/'strict': False/g" "$FILE"
+
+echo "Patch applied."
+
+# Optional: verify
+grep "'strict': False" "$FILE" && echo "Verification passed." || echo "Patch may have failed!"
