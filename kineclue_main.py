@@ -1,4 +1,4 @@
-#!/volatile/home/ts234112/INFO/CONDA/miniforge3/envs/envts2/bin/python3.12
+#!/srv/conda/envs/notebook/bin/python3.12
 # -*- coding: utf-8 -*-
 
 """
