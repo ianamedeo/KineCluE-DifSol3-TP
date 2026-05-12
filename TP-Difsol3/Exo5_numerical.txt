@@ -1,0 +1,22 @@
+& DIRECTORY VOb # choose a directory where an analytical calculation has already ran 
+
+& KRAACTIVATION # set activation energy for each jump mechanism for default value calculations
+vacjump 0.67 # only one number: activation energy (i.e. prefactor set to 1.0)
+ojump 0.149 0.56 # two numbers: prefactor then activation energy
+ojump2nn 0.149 0.40
+
+& TEMPERATURES 300 1000 20 # temperature loop
+
+& UNITS cm2/s # change the units
+
+& PREFACTOR 82 # jump frequency prefator common to all frequencies (in THz)
+
+& LATTPARAM 2.856 # lattice parameter (in angstroms) 
+
+& MOB # cluster mobility (without dissociation) as in cluster dynamics
+
+& OUTOPTIONS CF # output a file with a direct calculation of cluster correlation factors
+
+& OUTPUT numout  # base-name of the output files
+
+& INTERACTIONMODEL fevo.txt # use an external file to provide numerical information

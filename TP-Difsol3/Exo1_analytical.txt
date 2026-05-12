@@ -1,0 +1,17 @@
+& CRYSTAL bcc
++0.5 +0.5 -0.5
++0.5 -0.5 +0.5
+-0.5 +0.5 +0.5
+
+& KINETICRANGE 1
+
+& UNIQUEPOS 1
+o 0 0 0
+
+& SPECIES 1
+1 1 vacancy
+
+& JUMPMECH
+%% 1 vacjump
+s 1 0 0 0 > 1 1 0 0
+

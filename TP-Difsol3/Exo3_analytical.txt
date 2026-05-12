@@ -1,0 +1,27 @@
+& CRYSTAL bcc
++0.5 +0.5 -0.5
++0.5 -0.5 +0.5
+-0.5 +0.5 +0.5
+
+& KINETICRANGE 1.8 1.0
+
+& UNIQUEPOS 2
+o 0 0 0
+o 0.5 0 0
+
+& SPECIES 2
+0 1 0 vacancy
+1 0 1 oxygen
+
+& JUMPMECH
+%% 2 vacjump
+s 1 0 0 0 > 1 1 0 0
+s 0 1 0 0 > 0 0 0 0
+%% 2 ojump
+o 2 0.5 0 0 > 2 0.5 0.5 0
+o 0 0.5 0.5 0 > 0 0.5 0 0
+
+& DIRECTORY O
+
+& CPG o 1 0 0 
+

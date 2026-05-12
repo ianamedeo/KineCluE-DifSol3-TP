@@ -1,0 +1,5 @@
+& KRAACTIVATION # set activation energy for each jump mechanism for default value calculations
+vacjump 1.0 0.0
+
+& TEMPERATURES 300 1000 20 # temperature loop
+
