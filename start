@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Adding KineCluE files to Path
+export PATH='/home/jovyan':$PATH
+
+# Making kineclue files as executables
+chmod u+x kineclue_main.py
+chmod u+x kineclue_num.py
+
+exec "$@"
