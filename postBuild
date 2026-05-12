@@ -12,3 +12,11 @@ echo "Patch applied."
 
 # Optional: verify
 grep "'strict': False" "$FILE" && echo "Verification passed." || echo "Patch may have failed!"
+
+
+#Defining the kineclue files path
+export PATH='/home/jovyan':$PATH
+
+#Making the kineclue files executable
+chmod u+x kineclue_main.py
+chmod u+x kineclue_num.py
